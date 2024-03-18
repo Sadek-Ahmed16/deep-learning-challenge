@@ -29,17 +29,17 @@ For each of the models used, The RelU activation was using for each hidden layer
 
  - Initial Model: 2 hidden layers were used with 60 and 30 neurons
    
-   268/268 - 1s - loss: 0.5581 - accuracy: 0.7254 - 700ms/epoch - 3ms/step
+   268/268 - 1s - loss: 0.5581 - accuracy: 0.7254 - 700ms/epoch - 3ms/step.
    Loss: 0.5581448078155518, Accuracy: 0.7253644466400146
 
  - Optimized: 3 hidden layers were used with 27, 20 and 14 neurons
    
-   268/268 - 0s - loss: 0.5574 - accuracy: 0.7257 - 455ms/epoch - 2ms/step
+   268/268 - 0s - loss: 0.5574 - accuracy: 0.7257 - 455ms/epoch - 2ms/step.
    Loss: 0.5573567748069763, Accuracy: 0.7257142663002014
 
  - Optimized 1: 3 hidden layers were used with 27, 18 and 12 neurons
    
-   268/268 - 1s - loss: 0.5607 - accuracy: 0.7261 - 1s/epoch - 4ms/step
+   268/268 - 1s - loss: 0.5607 - accuracy: 0.7261 - 1s/epoch - 4ms/step.
    Loss: 0.5607113242149353, Accuracy: 0.726064145565033
 
 As you can see from the results, the target model performance of 75% was not achieved, however thorugh optimization there were slight improvements the the accuracy percentage in the models.
